@@ -1,6 +1,6 @@
 import csv
 
-f = open('file name')
+f = open('DAL_annual_balance-sheet.csv')
 
 csv_f = csv.reader(f)
 
