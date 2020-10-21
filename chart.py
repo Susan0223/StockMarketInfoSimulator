@@ -22,7 +22,6 @@ y = y[::-1]
 
 for i in range(len(x)):
     x[i] = x[i].replace("-","")
-    print(x[i])
 
 # plotting the points  
 plt.plot(x, y) 
