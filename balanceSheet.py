@@ -37,14 +37,13 @@ def currRatio(asset, liability):
 def printInfo(date, currentAsset, currentLiability, totalEquity):
 
     print(date)
+    print("-----------------------------")
     print("Current Asset: " + str(currentAsset)) 
     print("Current Liability: " + str(currentLiability))
     print("Total Equity: " + str(totalEquity))
 
-def printE():
-    print("hi")
-
 printInfo(date, currentAsset, currentLia, totalEquity)
+print("-----------------------------")
 currRatio(currentAsset, currentLia)
 
 
